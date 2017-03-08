@@ -1,15 +1,71 @@
 body {
+  background-color: grey;
+}
 
+header {
+  text-align: center;
+  background-color: blue;
+  border-bottom: 1px solid black;
+  height: 60px;
 }
 
 h1 {
 
 }
 
-.category {
+main {
+  float: left;
+}
+
+#gameboard {
 
 }
 
-.answerBox {
+.category {
+  background-color: silver;
+  width: 175px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-style: bold;
+  border: 1.5px solid black;
+  border-radius: 25px;
+}
 
+.answerBox {
+  background-color: blue;
+  width: 175px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-style: bold;
+  border: 1.5px solid black;
+  border-radius: 25px;
+}
+
+aside {
+  float: right;
+  border-left: 1.5px solid black;
+  padding: 5px;
+}
+
+#talkBox {
+  width: 400px;
+}
+
+.answerFlag {
+  font-size: 1em;
+  font-style: bold;
+}
+
+.scoreBox {
+
+}
+
+footer {
+  clear: both;
 }
